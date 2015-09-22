@@ -68,19 +68,22 @@
         <p> In IBM Integration Bus, message flows can be used to transform input data structures into output data structures. Several transformation options are provided including a Compute node (which uses ESQL), a Mapping node, a JavaCompute node (which can navigate data using an IBM Integration Bus Java API or JAXB), an XSL Transform node and a .NETCompute node. </p>
       
       </div>	  
-		
+		<!-- help links do not work in details page for GA 
+        
 		<div class="row content-details">
 			<h4>Find out more</h4>
 			<ul>
 			
 				
 												
-				<li> <a href="javascript:;" onclick="openHelpSystem('/com.ibm.etools.mft.doc/bi12002_.htm')" title="Knowledge Center link to Developing integration solutions by using applications">Developing integration solutions by using applications</a> </li>
+				<li> <a href="javascript:;" onclick="openHelpSystem('/com.ibm.etools.mft.doc/bi12002_.htm');" title="Knowledge Center link to Developing integration solutions by using applications">Developing integration solutions by using applications</a> </li>
 			   	
 			
 			</ul>
 		</div>
 				  
+        -->
+        
     </div><!-- End Columns -->
     <div class="small-offset-1 small-5 medium-offset-1 medium-5 large-offset-1 large-5 columns">
       <div class="row">
@@ -95,11 +98,11 @@
           </div>
           <div class="row" style="margin-left: 1rem; text-align: center">
             <action>
-              <div class="small radius button" id="startTutorial" onclick="startTutorialFromDetailsScreen()"> Start Tutorial
-            </div>
+              <button class="small radius button" tabindex="0" id="startTutorial" onclick="startTutorialFromDetailsScreen()"> Start Tutorial
+            </button>
             </action>
-            <div class="small radius button" id="backToGallery" onclick="backToGallery()"> Back To Gallery
-			</div>
+            <button class="small radius button" tabindex="0" id="backToGallery" onclick="backToGallery()"> Back To Gallery
+			</button>
           </div>
         </div>
       </div>
